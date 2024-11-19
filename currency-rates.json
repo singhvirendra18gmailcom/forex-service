@@ -1,0 +1,98 @@
+[
+    {
+        "from":"AUD",
+		"name": "Australian Dollar",
+        "to":"INR",
+        "rate":56.68306493708
+    },
+    {
+        "from":"CAD",
+		"name": "Canadian Dollar",
+        "to":"INR",
+        "rate": 61.07638291984
+    },
+{
+        "from":"CNY",
+		  "name": "Chinese Yuan",
+        "to":"INR",
+        "rate":11.892417744246
+    },
+    {
+        "from":"EUR",
+		 "name": "Euro",
+        "to":"INR",
+        "rate":91.965546398252
+    },
+{
+        "from":"GBP",
+		"name": "U.K. Pound Sterling",
+        "to":"INR",
+        "rate":109.82909572822
+    },
+    {
+        "from":"HKD",
+		  "name": "Hong Kong Dollar",
+        "to":"INR",
+        "rate":10.817048829399
+    },
+{
+        "from":"IDR",
+		 "name": "Indonesian Rupiah",
+        "to":"INR",
+        "rate":0.0053876468773172
+    },
+    {
+        "from":"JPY",
+		  "name": "Japanese Yen",
+        "to":"INR",
+        "rate":0.56463455718533
+    } 
+ {
+        "from":"KRW",
+		 "name": "South Korean Won",
+        "to":"INR",
+        "rate": 0.062276467342434
+    },
+    {
+        "from":"MYR",
+		  "name": "Malaysian Ringgit",
+        "to":"INR",
+        "rate": 19.623651482413
+    },
+    {
+        "from":"PHP",
+		 "name": "Philippine Peso",
+        "to":"INR",
+        "rate":1.4687845285732
+    },
+    {
+        "from":"SGD",
+		 "name": "Singapore Dollar",
+        "to":"INR",
+        "rate":64.387856786813
+    },
+{
+        "from":"THB",
+		 "name": "Thai Baht",
+        "to":"INR",
+        "rate":2.5251277328935
+    },
+    {
+        "from":"HKD",
+		  "name": "Hong Kong Dollar",
+        "to":"INR",
+        "rate":10.817048829399
+    },
+{
+        "from":"TWD",
+		  "name": "New Taiwan Dollar ",
+        "to":"INR",
+        "rate":2.6126474593077
+    },
+    {
+        "from":"USD",
+		 "name": "U.S. Dollar",
+        "to":"INR",
+        "rate":0.56463455718533
+    }	
+] 

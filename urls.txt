@@ -1,0 +1,70 @@
+
+Resource - User
+
+http://localhost:8080
+
+all users 			 - GET    /Users?age>25
+a particualar users  - GET    /Users/id
+create a user  		 - POST   /User     payload 
+Delete a user		 - DELETE /Users/id
+update a user		 - PATCH  /Users/id   {  payload has only data which need to updated}
+replace	a user		 - PUT /Users/id  { new user)
+
+
+logging.level.org.springframework=DEBUG
+management.endpoints.web.exposure.include=*
+
+CURRENCY-EXCHANGE
+http://localhost:8000/currency-exchange/from/USD/to/INR
+http://localhost:8001/currency-exchange/from/USD/to/INR
+http://localhost:8002/currency-exchange/from/USD/to/INR
+
+CURRENY-CONVERSION
+http://localhost:8100/currency-exchange/from/USD/to/INR/quantity/10
+http://localhost:8100/currency-exchange-feign/from/USD/to/INR/quantity/10
+
+
+API-GATEWAY - CURRENCY-EXCHANGE
+
+http://localhost:8765/CURRENCY-EXCHANGE/currency-exchange/from/USD/to/INR
+http://localhost:8765/CURRENCY-CONVERSION/currency-conversion/from/USD/to/INR/quantity/10
+http://localhost:8765/CURRENCY-CONVERSION/currency-conversion-feign/from/USD/to/INR/quantity/10
+
+Lower Case
+http://localhost:8765/currency-exchange/currency-exchange/from/USD/to/INR
+http://localhost:8765/currency-conversion/currency-conversion/from/USD/to/INR/quantity/10
+http://localhost:8765/currency-conversion/currency-conversion-feign/from/USD/to/INR/quantity/10
+
+Custom Routes
+
+http://localhost:8765/currency-exchange/from/USD/to/INR
+http://localhost:8765/currency-conversion/from/USD/to/INR/quantity/10
+http://localhost:8765/currency-conversion-feign/from/USD/to/INR/quantity/10
+
+
+https://resilience4j.readme.io/docs/circuitbreaker
+
+
+tioTYtkihPbymQ6CXHvkphXv1Wab23Cj
+
+
+http://localhost:8181/realms/spring-microservices-security-realm/protocol/openid-connect/token
+
+
+
+https://github.com/login?
+client_id=Ov23liRV3cnlyQUDbYRQ
+&return_to=%2Flogin%2Foauth%2Fauthorize%3Fclient_id%3DOv23liRV3cnlyQUDbYRQ%26
+redirect_uri%3Dhttp%253A%252F%252Flocalhost%253A9000%252Flogin%252Foauth2%252Fcode%252Fgithub
+%26response_type%3Dcode
+%26scope%3Dread%253Auser%26state%3Df9nLsWpLlUGXcgIanjAzbJFR7c5rxg4Wv8_gJ5IL0MM%253D
+
+
+
+https://fisglobal-my.sharepoint.com/personal/devendra_yadav_fisglobal_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fdevendra%5Fyadav%5Ffisglobal%5Fcom%2FDocuments%2FRecordings%2FMicroservices%20Training%20%287%5F9%5F11%5F14%5F16%5F18%20June%29%2D20210616%5F090815%2DMeeting%20Recording%2Emp4&parent=%2Fpersonal%2Fdevendra%5Fyadav%5Ffisglobal%5Fcom%2FDocuments&parentview=4
+
+	1hr16 min
+			
+
+ 
+
